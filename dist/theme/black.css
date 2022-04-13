@@ -251,8 +251,8 @@ section.has-light-background, section.has-light-background h1, section.has-light
 .reveal table th,
 .reveal table td {
   text-align: left;
-  padding: 0.2em 0.5em 0.2em 0.5em;
-  border-bottom: 1px solid;
+  padding: 0.1em 0.3em 0.1em 0.3em;
+  border-bottom: 0.5px solid;
 }
 
 .reveal table th[align=center],
@@ -282,8 +282,8 @@ section.has-light-background, section.has-light-background h1, section.has-light
 
 .reveal small {
   display: inline-block;
-  font-size: 0.6em;
-  line-height: 1.2em;
+  font-size: 0.5em;
+  line-height: 1em;
   vertical-align: top;
 }
 

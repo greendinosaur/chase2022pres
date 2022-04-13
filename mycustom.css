@@ -1,0 +1,4 @@
+ol.rq li::marker.rq {
+    content: "RQ" counter(list-item);
+    color: pink
+}
