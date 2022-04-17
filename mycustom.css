@@ -1,7 +1,7 @@
 ol.rq ::marker {
     content: "RQ" counter(list-item) ": ";
     font-weight: bold;
-  color: pink
+  color: #41A0F2
 }
 
 ul.no_bullet {
@@ -10,7 +10,7 @@ ul.no_bullet {
 }
 
 tr.my_small  {
-	font-size: 0.6em;
+	font-size: 0.5em;
 	line-height: 1.2em;
 	vertical-align: top;
 }
