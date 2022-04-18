@@ -17,19 +17,19 @@
 <body>
 	<div class="reveal">
 		<div class="slides">
-
-			<section data-background="./img/pexels-hristo-fidanov-1252890.jpeg">
+			<section data-background="./img/pexels-hristo-fidanov-1252890.jpeg" data-background-opacity="0.5">
 				<h3>Collaboration Tool Choices and Use in Remote Software Teams</h3>
 				<h4>Emerging Results from an Ongoing Study<h4>
 						<p><small>Victoria Jackson, Andr&#233; van der Hoek - University of California, Irvine,
-								USA<br />Rafael Prikladnicki - PURCS, Brazil</small></p>
-
-					</h4>
+								USA<br />Rafael Prikladnicki - PURCS, Brazil
+							</small>
+						</p>
 			</section>
 			<section>
 				<h4>Motivation</h4>
 				<p>
-					<img src="./img/pexels-cottonbro-5473298.jpeg" height="80%" />
+					<img src="./img/pexels-cottonbro-5473298.jpeg" height="80%"
+						alt="person working at home infront of computer" />
 				</p>
 			</section>
 
@@ -46,6 +46,7 @@
 			<section>
 				<h4>Research Method</h4>
 				<table>
+					<caption style="font-size: 0.4em;caption-side: bottom;">Participant demographics
 					<thead>
 						<tr class="my_small">
 							<th>Gender</th>
@@ -138,7 +139,7 @@
 				<h4><span style="color: #41A0F2">RQ1:</span> What tools do remote teams use to collaborate and how do
 					they choose which to use?</h4>
 				<table>
-					<caption style="font-size: 0.4em;caption-side: bottom;">Tool used by total number of participants
+					<caption style="font-size: 0.4em;caption-side: bottom;">Tool used by #participants
 					</caption>
 
 					<thead>
@@ -214,10 +215,18 @@
 
 			<section>
 				<h4>Insights</h4>
-				<p class="fragment fade-in-then-semi-out">Conscious Use of Collaboration Hubs</p>
-				<p class="fragment fade-in-then-semi-out">Adapting Work Practices</p>
-				<p class="fragment fade-in-then-semi-out">Finding Information</p>
-				<p class="fragment fade-in-then-semi-out">Choice of Tools</p>
+				<section>
+					<p>Conscious Use of Collaboration Hubs</p>
+				</section>
+				<section>
+					<p>Adapting Work Practices</p>
+				</section>
+				<section>
+					<p>Finding Information</p>
+				</section>
+				<section>
+					<p>Choice of Tools</p>
+				</section>
 			</section>
 			<section>
 				<h3>Thank You!</h3>
@@ -238,6 +247,7 @@
 		// - https://revealjs.com/config/
 		Reveal.initialize({
 			hash: true,
+			controls: false,
 
 			// Learn about plugins: https://revealjs.com/plugins/
 			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
